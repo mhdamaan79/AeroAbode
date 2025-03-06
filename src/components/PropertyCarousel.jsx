@@ -9,7 +9,7 @@ import img22 from "../assets/portraits/property (22).jpeg";
 const imgs = [img4, img17, img18, img19, img22];
 
 const ONE_SECOND = 1000;
-const AUTO_DELAY = ONE_SECOND * 1;
+const AUTO_DELAY = ONE_SECOND * 4;
 const DRAG_BUFFER = 50;
 
 const SPRING_OPTIONS = {

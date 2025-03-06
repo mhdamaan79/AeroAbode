@@ -40,8 +40,11 @@ export const VelocityText = () => {
   const x2 = useSpring(xRaw2, { mass: 3, stiffness: 400, damping: 50 });
 
   return (
-    <section ref={targetRef} className="h-[100vh] text-neutral-950">
-      <div className="sticky top-0 flex flex-col justify-center h-screen px-4 py-12 overflow-hidden gap-16">
+    <section
+      ref={targetRef}
+      className="h-[40vh] md:h-[100vh] text-neutral-950 max-sm:mt-10 max-sm:-mb-20"
+    >
+      <div className="sticky top-0 flex flex-col justify-center h-40vh md:h-screen px-4 py-12 overflow-hidden gap-8 md:gap-16">
         {/* First paragraph - moves right to left */}
         <motion.p
           style={{ skewX, x }}

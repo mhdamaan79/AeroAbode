@@ -10,8 +10,8 @@ import img21 from "../assets/portraits/property (21).jpeg";
 
 export const CardsPlayground = () => {
   return (
-    <section className="relative grid min-h-screen w-full place-content-center overflow-hidden bg-neutral-950">
-      <h2 className="relative z-0 text-[20vw] font-black text-neutral-800 md:text-[200px]">
+    <section className="relative grid max-sm:h-100 md:min-h-screen w-full place-content-center overflow-hidden bg-neutral-950">
+      <h2 className="relative z-0 text-[12vw] font-black text-neutral-800 md:text-[200px]">
         AEROABODE<span className="text-orange-500">.</span>
       </h2>
       <Cards />
