@@ -31,8 +31,8 @@ function App() {
       {/* cards playground component */}
       <CardsPlayground />
 
-      {/* wobblecard component */}
-      {/* <WobbleCard /> */}
+      {/* coming soon component */}
+      <ComingSoon />
 
       {/* footer component */}
       <Footer />
