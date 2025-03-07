@@ -8,7 +8,7 @@ import { VelocityText } from "./components/VelocityText";
 import { CardsPlayground } from "./components/CardsPlayground";
 import { PropertyCarousel } from "./components/PropertyCarousel";
 import ComingSoon from "./components/ComingSoon";
-import { WobbleCard } from "./components/ui/wobble-card";
+import { Globe } from "./components/Globe";
 
 function App() {
   return (
@@ -22,14 +22,17 @@ function App() {
       {/* property carousel component */}
       <PropertyCarousel />
 
-      {/* velocity text component */}
-      <VelocityText />
+      {/* globe component */}
+      <Globe />
 
       {/* property category component */}
       <PropertyCategories />
 
       {/* cards playground component */}
       <CardsPlayground />
+
+      {/* velocity text component */}
+      <VelocityText />
 
       {/* coming soon component */}
       <ComingSoon />
