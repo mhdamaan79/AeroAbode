@@ -52,7 +52,7 @@ export const PropertyCarousel = () => {
   };
 
   return (
-    <div className="relative overflow-hidden bg-neutral-950 py-8">
+    <div className="relative overflow-hidden bg-[#F9F5F6] py-8">
       <motion.div
         drag="x"
         dragConstraints={{
@@ -91,7 +91,7 @@ const Images = ({ imgIndex }) => {
               scale: imgIndex === idx ? 0.95 : 0.85,
             }}
             transition={SPRING_OPTIONS}
-            className="aspect-video w-screen shrink-0 rounded-xl bg-neutral-800 object-cover"
+            className="aspect-video w-screen shrink-0 rounded-xl bg-[#F9F5F6] object-cover"
           />
         );
       })}
@@ -108,7 +108,7 @@ const Dots = ({ imgIndex, setImgIndex }) => {
             key={idx}
             onClick={() => setImgIndex(idx)}
             className={`h-3 w-3 rounded-full transition-colors ${
-              idx === imgIndex ? "bg-neutral-50" : "bg-neutral-500"
+              idx === imgIndex ? "bg-[#71C9CE]" : "bg-[#CBF1F5]"
             }`}
           />
         );
@@ -120,8 +120,8 @@ const Dots = ({ imgIndex, setImgIndex }) => {
 const GradientEdges = () => {
   return (
     <>
-      <div className="pointer-events-none absolute bottom-0 left-0 top-0 w-[10vw] max-w-[100px] bg-gradient-to-r from-neutral-950/50 to-neutral-950/0" />
-      <div className="pointer-events-none absolute bottom-0 right-0 top-0 w-[10vw] max-w-[100px] bg-gradient-to-l from-neutral-950/50 to-neutral-950/0" />
+      <div className="pointer-events-none absolute bottom-0 left-0 top-0 w-[10vw] max-w-[100px] bg-gradient-to-r" />
+      <div className="pointer-events-none absolute bottom-0 right-0 top-0 w-[10vw] max-w-[100px] bg-gradient-to-l" />
     </>
   );
 };

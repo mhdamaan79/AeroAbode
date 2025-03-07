@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div
       className={`w-full h-auto flex justify-center fixed top-0 left-0 z-50 transition-all duration-300 
-      ${scrolled ? "backdrop-blur-md bg-white/40 shadow-md" : "pt-6"}`}
+      ${scrolled ? "backdrop-blur-md bg-transparent shadow-md" : "pt-6"}`}
     >
       <SlideTabs />
     </div>

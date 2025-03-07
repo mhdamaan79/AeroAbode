@@ -3,7 +3,7 @@ import footerData from "../data/footerData";
 
 const Footer = () => {
   return (
-    <section className="py-32">
+    <section className="py-8 md:py-32 px-4 md:px-20 bg-[#F9F5F6]">
       <div className="container">
         <footer>
           <div className="grid grid-cols-2 gap-8 lg:grid-cols-6">
