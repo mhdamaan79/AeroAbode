@@ -6,7 +6,9 @@ import {
   motion,
   animate,
 } from "framer-motion";
+import { HoverBorderGradientDemo } from "./HoverBorderButton";
 import { AnimatedTooltip } from "../components/ui/animated-tooltip";
+import { Spotlight } from "../components/ui/spotlight-new";
 
 const people = [
   {
@@ -78,11 +80,12 @@ export const HeroSection = () => {
       }}
       className="relative grid min-h-screen place-content-center overflow-hidden bg-[#F9F5F6] px-4 py-8 md:py-24 text-gray-200"
     >
+      <Spotlight />
       <div className="relative z-10 flex flex-col items-center justify-center">
         <span className="mb-1.5 inline-block rounded-full bg-gray-900/50 px-3 py-1.5 text-sm text-white">
           🏡 Explore Our Exclusive Listings!
         </span>
-        <h1 className="max-w-4xl bg-gradient-to-br from-[#393E46] to-[#393E46] bg-clip-text text-center text-3xl font-medium leading-tight text-transparent sm:text-5xl sm:leading-tight md:text-7xl md:leading-tight">
+        <h1 className="leading-tightsm:text-5xl sm:leading-tight md:leading-tight text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-black dark:to-white">
           Find Your Perfect Property <br />
           Buy, Sell & Rent Seamlessly!
         </h1>
@@ -90,7 +93,7 @@ export const HeroSection = () => {
           Looking for your next home or investment? Browse verified properties,
           get expert insights, and make informed decisions today!
         </p>
-        <motion.button
+        {/* <motion.button
           style={{
             border,
             boxShadow,
@@ -105,7 +108,8 @@ export const HeroSection = () => {
         >
           Book a Call
           <FiArrowRight className="transition-transform group-hover:-rotate-45 group-active:-rotate-12" />
-        </motion.button>
+        </motion.button> */}
+        <HoverBorderGradientDemo />
 
         <AnimatedTooltipPreview />
       </div>

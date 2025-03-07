@@ -1,5 +1,6 @@
 import React from "react";
 import footerData from "../data/footerData";
+import { HiHome } from "react-icons/hi";
 
 const Footer = () => {
   return (
@@ -9,14 +10,15 @@ const Footer = () => {
           <div className="grid grid-cols-2 gap-8 lg:grid-cols-6">
             <div className="col-span-2 mb-8 lg:mb-0">
               <div className="flex items-center gap-2 lg:justify-start">
-                <a href={footerData.logo.url}>
+                {/* <a href={footerData.logo.url}>
                   <img
                     src={footerData.logo.src}
                     alt={footerData.logo.alt}
                     title={footerData.logo.title}
                     className="h-10"
                   />
-                </a>
+                </a> */}
+                <HiHome className="" />
                 <p className="text-xl font-semibold">{footerData.logo.title}</p>
               </div>
               <p className="mt-4 font-bold">{footerData.tagline}</p>

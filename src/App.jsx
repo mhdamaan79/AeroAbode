@@ -8,9 +8,9 @@ import { VelocityText } from "./components/VelocityText";
 import { CardsPlayground } from "./components/CardsPlayground";
 import { PropertyCarousel } from "./components/PropertyCarousel";
 import ComingSoon from "./components/ComingSoon";
+import { WobbleCard } from "./components/ui/wobble-card";
 
 function App() {
-
   return (
     <div className="w-screen h-screen bg-neutral-100">
       {/* navbar component */}
@@ -31,8 +31,8 @@ function App() {
       {/* cards playground component */}
       <CardsPlayground />
 
-      {/* comingsoon component */}
-      <ComingSoon />
+      {/* wobblecard component */}
+      {/* <WobbleCard /> */}
 
       {/* footer component */}
       <Footer />

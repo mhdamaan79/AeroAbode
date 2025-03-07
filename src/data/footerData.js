@@ -1,10 +1,11 @@
 // src/data/footerData.js
+
 const footerData = {
   logo: {
-    src: "https://www.shadcnblocks.com/images/block/block-1.svg",
-    alt: "blocks for shadcn/ui",
+    src: "",
+    alt: "Home Icon",
     title: "Aeroabode",
-    url: "https://www.shadcnblocks.com",
+    url: "",
   },
   tagline: "Explore Our Exclusive Listings!",
   menuItems: [
